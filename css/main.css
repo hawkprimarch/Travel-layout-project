@@ -182,31 +182,6 @@ body {
     color: inherit;
 }
 
-/* Button */ 
-
-.btn {
-    display: inline-block;
-    padding: 13px 44px;
-
-    font-size: 15px;
-    font-weight: 500;
-    color: #FFF;
-
-    background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%), #FFFFFF;
-    border-radius: 100px;
-}
-
-.btn:hover {
-    color: #fff3c4;
-    transition: color 0.3s ease-in;
-
-}
-
-.btn:active {
-    position: relative;
-    top: 1px;
-}
-
 /* Header Content */
 
 .header__badge {
@@ -274,4 +249,100 @@ body {
 .destinations__slider {
     width: 1110px;
     flex-shrink: 0;
+}
+
+.destinations__title {
+    margin-bottom: 15px;
+
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.destinations__title span {
+    
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.destinations__text {
+    margin-bottom: 55px;
+    font-size: 25;
+    font-weight: 500;
+    color: var(--secondary);
+}
+
+.btn {
+    display: inline-block;
+    padding: 16px 40px;
+
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFF;
+
+    background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%), #FFFFFF;
+    border-radius: 100px;
+}
+
+.btn:hover {
+    color: #fff3c4;
+    transition: color 0.3s ease-in;
+
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+}
+
+/* Slider */
+
+.slider {
+    position: relative;
+    height: 456px;
+}
+
+.slider__item {
+    margin-top: 27px;
+    width: 335px;
+    height: 402px;
+    object-fit: cover;
+    border-radius: 35px;
+
+    transition: 0.3s ease-in;
+}
+
+.slider .center .slider__item {
+    margin-top: 0px;
+    width: 380px;
+    height: 456px;
+}
+
+.slider__btn {
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    transform: translateY(-50%);
+
+    display: block;
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+
+    background: linear-gradient(129.54deg, #FF7B4E 15.57%, #FF584E 95.03%), #8B8B8B;
+    border-radius: 34px;
+}
+
+.slider__btn--prev {
+    padding-left: 26px;
+    left: -27px;
+    justify-content: flex-start;
+}
+
+.slider__btn--next {
+    padding-right: 26px;
+    right: -27px;
+    justify-content: flex-end;
 }

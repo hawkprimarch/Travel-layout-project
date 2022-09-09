@@ -411,3 +411,62 @@ body {
     font-size: 25px;
     color: var(--secondary);
 }
+
+/* CTA */ 
+
+.cta {
+    padding-top: 100px;
+}
+
+
+.cta__plate {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 580px;
+    padding: 40px 15px;
+
+    background-color: #FFF;
+    border-radius: 60px;
+}
+
+.cta__plate::before,
+.cta__plate::after {
+    position: absolute;
+    width: 63px;
+    height: 83px;
+
+    content: "";
+ 
+}
+
+.cta__plate::after {
+    left: 74px;
+    bottom: 56px;
+    background-image: url("./../img/cta/cta-el-01.svg");
+}
+
+.cta__plate::before {
+    top: 74px;
+    right: 56px;
+    background-image: url("./../img/cta/cta-el-02.svg");
+}
+
+.cta__title {
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.cta__text {
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: var(--secondary);
+}
+
+.cta__button {
+}

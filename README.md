@@ -4,6 +4,8 @@
 
 ### Description
 
-Layout of the adaptive main page of the site for practice, resources and lessons belong to https://webcademy.ru/
+Layout of the adaptive main page of the site for practice, resources, rights and lessons belong to https://webcademy.ru/
 
 ### Result:
+
+https://hawkprimarch.github.io/Travel-layout-project/

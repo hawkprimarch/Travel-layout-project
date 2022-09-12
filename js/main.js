@@ -9,7 +9,7 @@ owl.owlCarousel({
     startPosition: 0,
     items: 1,
     responsive: {
-		540: {
+		600: {
 			items: 3,
 			startPosition: 1,
 		},

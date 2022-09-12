@@ -1,6 +1,6 @@
 ## Travel agency main page
 
-![alt text](https://i.ibb.co/pyqnDdP/Design1.png)
+![alt text](https://i.ibb.co/SrSJTBx/Design1.png)
 
 ### Description
 
